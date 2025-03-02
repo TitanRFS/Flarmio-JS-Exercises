@@ -1,1 +1,2 @@
 ## Flarmio Training
+### Javascript Exercises
