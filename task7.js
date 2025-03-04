@@ -66,10 +66,10 @@ const itemCount = basket.reduce((acc, item) => {
 const total = Object.keys(itemCount).reduce((acc, item) => {
   let count = itemCount[item];
   if (item === "apple") {
-    const freeApples = Math.floor(count / 2);
+    const freeApples = count / 2;
     count -= freeApples;
   } else if (item === "orange") {
-    const freeOranges = Math.floor(count / 3);
+    const freeOranges = count / 3;
     count -= freeOranges;
   }
 
